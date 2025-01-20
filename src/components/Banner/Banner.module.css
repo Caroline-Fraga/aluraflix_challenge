@@ -1,0 +1,45 @@
+.banner {
+  position: relative;
+  height: 300px;
+  padding: 40px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  color: var(--branco);
+  padding: 20px;
+  text-align: justify;
+  border-radius: 8px;
+  width: 50%;
+}
+
+.overlay h1 {
+  font-size: var(--tamanhoGrande);
+  display: inline-block; 
+  padding: 10px;
+  border-radius: 5px; 
+}
+
+.overlay p {
+  font-size: var(--tamanhoMedio);
+}
+
+.frontend {
+  background-color: var(--azulClaro);
+  color: var(--preto);
+}
+
+.backend {
+  background-color: var(--verdeClaro);
+  color: var(--preto);
+}
+
+.mobile {
+  background-color: var(--amarelo);
+  color: var(--preto);
+}

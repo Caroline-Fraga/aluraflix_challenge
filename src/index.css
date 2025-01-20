@@ -1,0 +1,28 @@
+:root {
+  --fonte: 'Roboto', 'sans-serif';
+  --cinzaEscuro: #202020;
+  --cinzaClaro: grey;
+  --preto: black;
+  --branco: white;
+  --azul: blue;
+  --azulMarinho: #000080;
+  --azulAnil: #483D8B;
+  --azulClaro: lightblue;
+  --verdeClaro: lightgreen;
+  --amarelo: yellow;
+  --pesoNegrito: bold;
+  --tamanhomedio: medium;
+  --tamanhoGrande: large;
+}
+
+body {
+  margin: 0;
+  font-family: var(--fonte);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

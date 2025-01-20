@@ -1,0 +1,111 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 10px;
+  overflow: auto; 
+}
+
+.modalContent {
+  background-color: var(--azulAnil);
+  padding: 40px;
+  border-radius: 8px;
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  box-sizing: border-box;
+  max-height: 80%; 
+  overflow-y: auto; 
+  border: 2px solid var(--azul);
+}
+
+.modalContent h2 {
+  font-size: 24px;
+  font-weight: var(--pesoNegrito);
+  margin-top: 0px;
+  color: var(--branco);
+  padding-right: 40px; 
+}
+
+label {
+  font-size: var(--tamanhoMedio);
+  margin-bottom: 5px;
+  color: var(--branco);
+}
+
+input, textarea, select {
+  width: 100%; 
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: var(--tamanhoMedio);
+  border: 1px solid var(--azulMarinho);
+  border-radius: 5px;
+  background-color: var(--azulAnil);
+  color: var(--branco);
+  margin-top: 5px;
+  box-sizing: border-box; 
+}
+
+textarea {
+  resize: vertical;
+  height: 150px; 
+  max-height: 400px; 
+  box-sizing: border-box; 
+  text-align: justify;
+}
+
+select {
+  padding: 10px;
+  font-size: var(--tamanhoMedio);
+}
+
+.modalActions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modalActions button {
+  padding: 10px 20px;
+  font-size: var(--tamanhoMedio);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modalActions button:nth-child(1) {
+  background-color: var(--preto);
+  color: var(--branco);
+  border: 2px solid var(--azul);
+  font-weight: var(--pesoNegrito);
+}
+
+.modalActions button:nth-child(2) {
+  background-color: var(--azulAnil);
+  color: var(--branco);
+  border: 2px solid var(--branco);
+  font-weight: var(--pesoNegrito);
+}
+
+.modalActions button:nth-child(1):hover {
+  background-color: var(--cinzaClaro);
+}
+
+.modalActions button:nth-child(2):hover {
+  background-color: var(--cinzaClaro);
+}
+
+.closeIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: var(--tamanhoGrande);
+  cursor: pointer;
+  color: var(--branco);
+}

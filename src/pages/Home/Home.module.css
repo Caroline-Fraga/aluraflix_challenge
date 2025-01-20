@@ -1,0 +1,91 @@
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--cinzaEscuro);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.category {
+  margin: 20px;
+  padding: 0 20px;
+  flex-grow: 1;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.category h2 {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.category.frontend h2 {
+  background-color: var(--azulClaro);
+  color: var(--preto);
+}
+
+.category.backend h2 {
+  background-color: var(--verdeClaro);
+  color: var(--preto);
+}
+
+.category.mobile h2 {
+  background-color: var(--amarelo);
+  color: var(--preto);
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+.carouselButton {
+  background-color: transparent;
+  border: none;
+  color: var(--branco);
+  font-size: 2.5rem;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 10;
+}
+
+.carouselButton:hover {
+  color: var(--amarelo);
+}
+
+.carouselContainer {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.carouselItems {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carouselItems > div {
+  flex-shrink: 0;
+  width: 300px;
+  margin-right: 20px;
+}
+
+header, footer {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,33 @@
+.textField {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: var(--branco);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.field label {
+  font-size: var(--tamanhoPequeno);
+  font-weight: var(--pesoNegrito);
+  margin-bottom: 5px;
+}
+
+.field input, .field textarea {
+  padding: 10px;
+  font-size: var(--tamanhoPequeno);
+  border: 1px solid var(--branco);
+  border-radius: 4px;
+  width: 100%;
+}
+
+.field textarea {
+  resize: none;
+  height: 100px;
+}

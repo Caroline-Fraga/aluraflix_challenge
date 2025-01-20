@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--preto); 
+  color: var(--branco);
+  border-bottom: 2px solid var(--azul);
+  width: 100%;
+}
+
+.logo img {
+  width: 100%; 
+  height: auto;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px; 
+}
+
+.inicioButton {
+  border: 2px solid var(--azul); 
+  background-color: var(--preto); 
+  color: var(--azul); 
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: var(--tamanhoMedio);
+  font-weight: var(--pesoNegrito);
+}
+
+.inicioButton:hover, .novoVideoButton:hover {
+  background-color: var(--cinzaClaro); 
+}
+
+.novoVideoButton {
+  border: 2px solid var(--branco);
+  background-color: var(--cinzaEscuro); 
+  color: var(--branco); 
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: var(--tamanhoMedio);
+  font-weight: var(--pesoNegrito);
+}
+
+

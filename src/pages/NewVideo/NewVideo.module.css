@@ -1,0 +1,110 @@
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--cinzaEscuro); 
+}
+
+header {
+  width: 100%;
+  background-color: var(--branco);
+}
+
+footer {
+  width: 100%; 
+  margin-top: auto; 
+  background-color: var(--cinzaEscuro);
+  color: var(--branco);
+  padding: 10px;
+  text-align: center;
+}
+
+.form {
+  background-color: var(--cinzaEscuro);
+  color: var(--branco);
+  padding: 20px;
+  width: 100%; 
+  max-width: 800px; 
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: var(--pesoNegrito);
+  color: var(--branco);
+}
+
+.formField {
+  margin-bottom: 15px;
+}
+
+.formField label {
+  font-size: var(--tamanhoMedio);
+  font-weight: var(--pesoNegrito);
+}
+
+.formField input,
+.formField select,
+.formField textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--branco);
+  border-radius: 5px;
+  font-size: var(--tamanhoMedio);
+  background-color: var(--cinzaEscuro);
+  color: var(--branco);
+  margin-top: 5px;
+}
+
+.formField textarea {
+  height: 150px;
+  text-align: justify;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.saveButton,
+.clearButton {
+  padding: 10px 20px;
+  font-size: var(--tamanhoMedio);
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.saveButton {
+  background-color: var(--cinzaEscuro);
+  color: var(--branco);
+  border: 2px solid var(--azul);
+  font-weight: var(--pesoNegrito);
+}
+
+.saveButton:hover {
+  background-color: var(--cinzaClaro);
+}
+
+.clearButton {
+  background-color: var(--cinzaEscuro);
+  color: var(--branco);
+  border: 2px solid var(--branco);
+  font-weight: var(--pesoNegrito);
+}
+
+.clearButton:hover {
+  background-color: var(--cinzaClaro);
+}
+
+.message {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: var(--tamanhoMedio);
+  font-weight: var(--pesoNegrito);
+  color: var(--cinzaClaro);
+}
